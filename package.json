@@ -1,0 +1,26 @@
+{
+  "name": "phones-motorola",
+  "version": "1.0.0",
+  "description": "Catálogo de smartphones comercializados por Motorola",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorcalle11/phonesMotorola.git"
+  },
+  "keywords": [
+    "smartphones",
+    "motorola"
+  ],
+  "author": "Jorcalle11",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jorcalle11/phonesMotorola/issues"
+  },
+  "homepage": "https://github.com/jorcalle11/phonesMotorola#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
