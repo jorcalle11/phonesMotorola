@@ -20,6 +20,11 @@ a {
   list-style-type: none;
   display: inline-block;
 }
+.avatar {
+  width: 200px;
+  heigth: 200px;
+  border-radius: 50%;
+}
 .inline-block {
   display: inline-block;
 }
@@ -38,6 +43,9 @@ a {
 .big {
   font-size: 2.5em;
 }
+.medium {
+  font-size: 1.5em;
+}
 .color-lightgreen {
   color: #39bca4;
 }
@@ -46,6 +54,9 @@ a {
 }
 .padding-large {
   padding: 5px 10px;
+}
+.padding-medium {
+  padding: 5px;
 }
 .color-blue {
   color: #6c94b1;

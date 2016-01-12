@@ -3,45 +3,48 @@ extends ./layout.jade
 block content
 	nav(class="color-wheat padding-large")
 		ul(class="no-list")
-			li(class="col-md-3 no-float") Smartphones
-			li(class="col-md-3 no-float") Contacto
-			li(class="col-md-3 no-float") Acerca de
+			li(class="col-md-3 no-float")
+				a(href="/") Inicio
+			li(class="col-md-3 no-float")
+				a(href="/contact") Contacto
+			li(class="col-md-3 no-float")
+				a(href="/about") Acerca de
 	section
-		div(class="text-center")
+		div(class="text-center medium")
 			h1(class="pacifico big color-blue") Smartphones
 			p Bonitos diseños y facil de manejar, elige el tuyo
-			section(class="col-md-3 no-float inline-block")
+			section(class="col-md-3 col-sm-4 no-float inline-block")
 				article
 					h3(class="pacifico") Moto g 3
 					a(href="http://www.motorola.es/products/moto-g")
-						img(src="images/motoG3gen.png", alt="Moto G 3 Generacion" class="col-md-8 no-float")
+						img(src="images/motoG3gen.png", alt="Moto G 3 Generacion" class="col-xs-6 col-md-6 no-float")
 					p
 						strong 199,00 €
 
 				article
 					h3(class="pacifico") Moto g 2
 					a(href="https://www.motorola.es/Moto-G-de-Motorola/Moto-g-gen2-es.html")
-						img(src="images/motoG2gen.png", alt="Moto G 2 Generacion" class="col-md-8 no-float")
+						img(src="images/motoG2gen.png", alt="Moto G 2 Generacion" class="col-xs-6 col-md-6 no-float")
 					p
 						strong 158,00 €
 
-			section(class="col-md-6 no-float inline-block vertical-align")
+			section(class="col-md-6 col-sm-4 no-float inline-block vertical-align")
 				article
 					h3(class="pacifico") Moto X force
 					a(href="http://www.motorola.es/products/moto-x-force")
-						img(src="images/motoXforce.png", alt="Moto X Force" class="col-md-6 no-float")
+						img(src="images/motoXforce.png", alt="Moto X Force" class="col-xs-6 col-md-8 no-float")
 					p
 						strong 699,00 €
-			section(class="col-md-3 no-float inline-block vertical-align")
+			section(class="col-md-3 col-sm-4 no-float inline-block vertical-align")
 				article
 					h3(class="pacifico") Moto X Play
 					a(href="http://www.motorola.es/products/moto-x-play")
-						img(src="images/MotoXplay.png", alt="Moto X Play" class="col-md-6 no-float")
+						img(src="images/MotoXplay.png", alt="Moto X Play" class="col-xs-6 col-md-6 no-float")
 					p
 						strong 299,00 €
 				article
 					h3(class="pacifico") Moto X Style
 					a(href="http://www.motorola.es/products/moto-x-style")
-						img(src="images/motoXstyle.png", alt="Moto X Style" class="col-md-6 no-float")
+						img(src="images/motoXstyle.png", alt="Moto X Style" class="col-xs-6 col-md-6 no-float")
 					p
 						strong 506,00 €

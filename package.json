@@ -23,5 +23,8 @@
   "dependencies": {
     "express": "^4.13.3",
     "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.6.1"
   }
 }
