@@ -20,10 +20,17 @@ a {
   list-style-type: none;
   display: inline-block;
 }
+.no-list li a {
+  color: #fff;
+  font-size: 1.7em;
+}
 .avatar {
   width: 200px;
   heigth: 200px;
   border-radius: 50%;
+}
+.shadow-transparent {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 }
 .inline-block {
   display: inline-block;
@@ -53,11 +60,29 @@ a {
   background-color: #dfd3b6;
 }
 .padding-large {
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 .padding-medium {
   padding: 5px;
 }
 .color-blue {
   color: #6c94b1;
+}
+.color-crimson {
+  background-color: #ed3b3b;
+}
+.delay-1 {
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+.delay-2 {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
+@media screen and (max-width: 700px) {
+  .no-list li a {
+    font-size: 1.3em;
+  }
 }
