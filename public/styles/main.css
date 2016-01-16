@@ -53,6 +53,9 @@ a {
 .medium {
   font-size: 1.5em;
 }
+.small {
+  font-size: 1em;
+}
 .color-lightgreen {
   color: #39bca4;
 }
