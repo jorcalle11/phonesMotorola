@@ -1,0 +1,30 @@
+extends ../layout.jade
+
+block content
+	section(class="center-block col-md-4 no-float top-space text-left margin-up")
+		h1 Agregar Smartphone
+		h4 Llena la siguiente información para poder agregar un nuevo telefono Motorola
+		form(method="post" action="/api/phones/new" class="margin-up")
+			div(class="form-group")
+				label(for="model") Nombre:
+				input(type="text" name="model" placeholder="Moto x Play" class="form-control")
+			div(class="form-group")
+				label(for="memory") Memoria Ram:
+				input(type="text" name="memory" placeholder="1GB" class="form-control")
+			div(class="form-group")
+				label(for="display") Pantalla:
+				input(type="text" name="display" placeholder="5'' full HD" class="form-control")
+			div(class="form-group")
+				label(for="front") Cámara Frontal:
+				input(type="text" name="front" placeholder="2MP" class="form-control")
+			div(class="form-group")
+				label(for="back") Cámara Trasera:
+				input(type="text" name="back" placeholder="8MP" class="form-control")
+			div(class="form-group")
+				label(for="colors") Colores:
+				input(type="text" name="colors" placeholder="azul, negro" class="form-control")
+			div(class="form-group")
+				label(for="price") Precio (euros):
+				input(type="number" name="price" placeholder="199" class="form-control")
+			div(class="form-group text-right")
+				input(type="submit" value="Guardar" class="btn btn-large btn-primary")
